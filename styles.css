@@ -1,0 +1,101 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family:sans-serif;
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+/**--------------AJUSTANDO O BACKGROUND--------**/
+
+
+.full-screen-container{
+    background-image: url("loginpage-theme.jpg");
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.login-title{
+    margin:0;
+}
+
+/*------------------------------------------*/
+
+
+.login-container{
+    color:#fff;
+    background-color:rgba(0, 0, 0, 0.90);
+    border-radius:1.5rem;
+    padding:3rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width:600px;
+    width:80%;
+    margin:5.3rem auto;
+
+}
+
+.login-title{
+    font-size:2rem;
+    font-weight: normal;
+}
+
+
+.form{
+    margin-top:2.5rem;
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+}
+
+.input-group{
+    display:flex;
+    flex-direction:column;
+    gap:.8rem;
+}
+
+.input-group input{
+    font-size:1.25rem;
+    padding:.5rem;
+    background-color:rgba(73, 70, 70, 0.34);
+    color:#fff;
+    border:1px solid #ccc;
+    border-radius:.3rem;
+}
+
+.login-button{
+    font-size:1.5rem;
+    padding: .5em 1em;
+    border:none;
+    transition: .5s;
+}
+
+.login-button:hover,
+.login-button:focus{
+    background-color:green;
+    cursor:pointer;
+    color:white;
+}
+
+.green-link {
+    text-decoration:none;
+    color:green;
+}
+
+.green-link:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+input:hover{
+    cursor:pointer;
+}
